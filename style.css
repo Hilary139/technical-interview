@@ -1,0 +1,314 @@
+/* navigation bar */
+
+* {box-sizing: border-box;}
+
+/* Style the navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #fffdfd;
+  box-shadow: 20px;
+  margin-bottom: 20px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+  margin-left: 50px;
+  font-style: bold;
+}
+
+/* Style the input container */
+.topnav .search-container {
+  float: right;
+ 
+}
+
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  margin-left: 150px;
+  margin-right: 16px;
+  width: 330px;
+  background-color: rgb(255, 255, 255);
+ border-style: groove;
+}
+
+.submit{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 75px;
+  background-color: rgb(255, 255, 255);
+  border-style: groove;
+ color: rgb(35, 82, 143);
+ margin-left: -22px;
+}
+
+.select-field{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 200px;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+ border-style: groove;
+}
+.search-container{
+ display: flex;
+ margin-left:-30px;
+ margin-right: 150px;
+
+}
+
+.search-container p{
+  margin-left:35px;
+  margin-right:25px;
+}
+
+.cart{
+  color: rgb(35, 82, 143);
+}
+
+.blog{
+  color:rgb(157, 155, 155);
+}
+
+.avatar-nav{
+  margin-top:6px;
+}
+
+/* screen split */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     padding: 25px;
+     margin-left:27px;
+     margin-top: -50px;
+     margin-bottom: -90px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    margin-bottom: -90px;
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container > div {
+    width: 270px;
+    margin-left: 2px;
+  }
+
+  .div-details{
+      margin-right: 10%;
+  }
+
+  .div-blue p{
+      margin-left: -65%;
+      float: right;
+
+  }
+  hr{
+      color:rgb(236, 236, 236);
+      border-style: 2px thin;
+      
+  }
+  a{
+      text-decoration: none;
+  }
+
+  .avatar img  {
+    border-radius: 50%;
+    width:30%;
+    margin-bottom: 10%;
+  }
+  .avatar p{
+      margin-top: -10px;
+  }
+
+  #main {
+    width: 570px;
+    height: 400px;
+    display: flex;
+
+  }
+  
+  #main > div {
+    width: 350px;
+    height: 50px;
+  }
+
+
+
+
+  /* main styling for first screen half */
+
+  h1{
+    font-size:35px;
+    color: rgb(4, 4, 66);
+  }
+  .para-left-one{
+    font-size: 20px;
+    color: rgb(168, 164, 164);
+  }
+
+  a{
+    color: rgb(35, 82, 143);
+  }
+
+  .para-details{
+    font-size: 20px;
+    color: rgb(2, 12, 50);
+    font-style: 7px bold;
+
+  }
+
+  label{
+    margin-right: 25px;
+    margin-bottom: 25px;
+     color: rgb(4, 20, 77); 
+  }
+.input-location{
+  width: 330px;
+  height:30px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  border-style: groove;
+}
+sup{
+  margin-left: -4px;
+}
+
+.input-state{
+  height:30px;
+  margin-left: -20px;
+  border-radius: 3px;
+  width:167px;
+  background-color: rgb(255, 255, 255);
+  border-style: groove;
+}
+
+.input-Country{
+  height:30px;
+  width:167px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  border-style: groove;
+}
+
+.policy{
+  font-size: 16px;
+  color: rgb(168, 164, 164);
+}
+
+.balance{
+  color:rgb(35, 82, 143);
+}
+
+.btn1{
+  text-align: center;
+  margin: 10 auto;
+  width: 550px;
+  height: 40px;
+  color:  rgb(4, 20, 77); 
+  font-size: 16px;
+  border-style: transparent;
+  border: transparent;
+}
+
+button{
+  text-align: center;
+  margin: 10 auto;
+  background-color: rgb(213, 210, 210);
+  border-style: transparent;
+}
+
+
+
+/* styling for second screen half */
+
+h2{
+  font-size:25px;
+  color: rgb(4, 4, 66);
+}
+
+.para-right-one{
+  font-size: 19px;
+  color: rgb(168, 164, 164);
+}
+
+.div-shoe{
+  margin-right: -20%;
+}
+
+.sold{
+  color: rgb(168, 164, 164);
+}
+
+.price-title{
+  color: rgb(168, 164, 164);
+}
+
+.product{
+  color:  rgb(4, 20, 77); 
+}
+
+.price{
+  color:  rgb(4, 20, 77); 
+}
+
+.avatar-para{
+  display: flex;
+  margin-bottom: 10px;
+  color:  rgb(4, 20, 77); 
+}
+.avatar{
+  margin-top: -10px;
+}
+
+
+h3{
+  font-size:22px;
+  color: rgb(4, 4, 66);
+}
+
+.total{
+  color: rgb(168, 164, 164);
+}
+
+.total-price{
+  color:  rgb(4, 20, 77); 
+}
+
+.total-price1{
+  color:  rgb(4, 20, 77); 
+  font-size: 18px;
+}
+
+
+.div-shoe1 {
+  margin-left: -20%;
+}
+
+.green {
+  color: rgb(157, 240, 157);
+}
+
