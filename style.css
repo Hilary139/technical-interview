@@ -5,28 +5,29 @@
 /* Style the navbar */
 .topnav {
   overflow: hidden;
-  background-color: #fffdfd;
+  background-color: #ffffff;
   box-shadow: 20px;
   margin-bottom: 20px;
 }
 
 /* Navbar links */
 .topnav a {
-  float: left;
-  display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 23px;
-  margin-left: 50px;
+  margin-left: 45px;
+  margin-right: 40px;
+  margin-bottom: -52px;
   font-style: bold;
 }
 
 /* Style the input container */
 .topnav .search-container {
-  float: right;
- 
+   float: right; 
+   display: flex;
+   text-align: center;
 }
 
 /* Style the input field inside the navbar */
@@ -36,10 +37,10 @@
   font-size: 17px;
   border: none;
   margin-left: 150px;
-  margin-right: 16px;
+  margin-right: 26px;
   width: 330px;
   background-color: rgb(255, 255, 255);
- border-style: groove;
+  border-style: groove;
 }
 
 .submit{
@@ -50,8 +51,8 @@
   width: 75px;
   background-color: rgb(255, 255, 255);
   border-style: groove;
- color: rgb(35, 82, 143);
- margin-left: -22px;
+  color: rgb(35, 82, 143);
+  margin-left: -22px;
 }
 
 .select-field{
@@ -62,11 +63,11 @@
   width: 200px;
   margin-left: 20px;
   background-color: rgb(255, 255, 255);
- border-style: groove;
+  border-style: groove;
 }
 .search-container{
  display: flex;
- margin-left:-30px;
+ margin-left:-35px;
  margin-right: 150px;
 
 }
@@ -74,6 +75,7 @@
 .search-container p{
   margin-left:35px;
   margin-right:25px;
+  display: flex;
 }
 
 .cart{
@@ -92,12 +94,13 @@
 
 
 .grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
+     display: grid;
+     grid-template-columns: auto auto auto;
      padding: 25px;
      margin-left:27px;
      margin-top: -50px;
      margin-bottom: -90px;
+     font-family: 'Inter', sans-serif;
 }
 
 .grid-item {
@@ -119,13 +122,15 @@
 
   .div-details{
       margin-right: 10%;
+    
   }
 
   .div-blue p{
       margin-left: -65%;
-      float: right;
+      float: right; 
 
   }
+
   hr{
       color:rgb(236, 236, 236);
       border-style: 2px thin;
@@ -164,6 +169,7 @@
   h1{
     font-size:35px;
     color: rgb(4, 4, 66);
+    font-family: 'Archivo';
   }
   .para-left-one{
     font-size: 20px;
@@ -256,7 +262,7 @@ h2{
 }
 
 .div-shoe{
-  margin-right: -20%;
+  margin-right: -17%;
 }
 
 .sold{
@@ -279,9 +285,12 @@ h2{
   display: flex;
   margin-bottom: 10px;
   color:  rgb(4, 20, 77); 
+
 }
+
 .avatar{
   margin-top: -10px;
+
 }
 
 
