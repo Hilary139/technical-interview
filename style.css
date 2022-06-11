@@ -104,16 +104,16 @@ body{
      display: grid;
      grid-template-columns: auto auto auto;
      padding: 25px;
-     margin-left:27px;
+     margin-left:30px;
      margin-top: -50px;
-     margin-bottom: -90px;
+     margin-bottom: -60px;
      font-family: 'Inter', sans-serif;
 }
 
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
-    margin-bottom: -70px;
+    margin-bottom: -60px;
   }
 
 
@@ -200,7 +200,7 @@ body{
      color: rgb(4, 20, 77); 
   }
 .input-location{
-  width: 330px;
+  width: 415px;
   height:30px;
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
@@ -214,14 +214,14 @@ sup{
   height:30px;
   margin-left: -20px;
   border-radius: 3px;
-  width:167px;
+  width:203px;
   background-color: rgb(255, 255, 255);
   border-style: groove;
 }
 
 .input-Country{
   height:30px;
-  width:167px;
+  width:203px;
   border-radius: 3px;
   background-color: rgb(255, 255, 255);
   border-style: groove;
