@@ -1,5 +1,12 @@
 /* navigation bar */
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 16px;
+  font-weight:400px;
+  line-height:16px;
 
+}
 * {box-sizing: border-box;}
 
 /* Style the navbar */
@@ -106,7 +113,7 @@
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
-    margin-bottom: -90px;
+    margin-bottom: -70px;
   }
 
 
@@ -172,7 +179,7 @@
     font-family: 'Archivo';
   }
   .para-left-one{
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(168, 164, 164);
   }
 
@@ -257,7 +264,7 @@ h2{
 }
 
 .para-right-one{
-  font-size: 19px;
+  font-size: 16px;
   color: rgb(168, 164, 164);
 }
 
